@@ -13,17 +13,17 @@ graph TD
     C --> D["Tabela Fato:<br>ControleEntregaResultados"]
     C --> E["Dimensões Auxiliares"]
 
-    subgraph Data Model ["Star Schema Simplificado"]
+    subgraph DataModel ["Star Schema Simplificado"]
         D -- Cliente --> F["Dim_Frequencia_Clientes"]
         D -- DataDaProximaEntrega --> G["Dim_Calendario"]
     end
 
-    subgraph Lógica de Negócio ["DAX Measures"]
+    subgraph BusinessLogic ["Lógica de Negócio (DAX)"]
         D --> H["KPI: Entregas Atrasadas"]
         D --> I["KPI: Taxa de Realização"]
     end
 
-    Data Model --> J["Report Views"]
+    DataModel --> J["Report Views"]
     J --> K["Pág: Detalhamento Geral"]
     J --> L["Pág: Painel de Indicadores"]
 ```
