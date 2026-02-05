@@ -1,0 +1,88 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.5.0/schema.json",
+  "name": "header_text",
+  "position": {
+    "x": 0,
+    "y": 0,
+    "z": 1000,
+    "height": 105,
+    "width": 700,
+    "tabOrder": 1000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Visão Geral de Entregas",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontFamily": "DIN",
+                      "fontSize": "26pt",
+                      "color": "#e20613"
+                    }
+                  }
+                ],
+                "horizontalTextAlignment": "left"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Acompanhamento detalhado de performance por segmento, analista e status de entrega.",
+                    "textStyle": {
+                      "fontFamily": "'Segoe UI', wf_segoe-ui, helvetica, arial, sans-serif",
+                      "fontSize": "12pt",
+                      "color": "#666666"
+                    }
+                  }
+                ],
+                "horizontalTextAlignment": "left"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "padding": [
+          {
+            "properties": {
+              "left": {
+                "expr": {
+                  "Literal": {
+                    "Value": "180D"
+                  }
+                }
+              },
+              "top": {
+                 "expr": {
+                    "Literal": {
+                       "Value": "24D"
+                    }
+                 }
+              }
+            }
+          }
+        ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}
