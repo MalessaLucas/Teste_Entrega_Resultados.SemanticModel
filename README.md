@@ -8,24 +8,24 @@ O painel consome dados de uma lista SharePoint e os processa para visualização
 
 ```mermaid
 graph TD
-    A[SharePoint List<br>MateriaisdeEntregadeResultados-2025] -->|Import Mode| B[Power BI Dataset]
-    B --> C{Transformação Power Query<br>(M Language)}
-    C --> D[Tabela Fato:<br>ControleEntregaResultados]
-    C --> E[Dimensões Auxiliares]
+    A["SharePoint List<br>MateriaisdeEntregadeResultados-2025"] -->|Import Mode| B["Power BI Dataset"]
+    B --> C{"Transformação Power Query<br>(M Language)"}
+    C --> D["Tabela Fato:<br>ControleEntregaResultados"]
+    C --> E["Dimensões Auxiliares"]
 
-    subgraph Data Model [Star Schema Simplificado]
-        D -- Cliente --> F[Dim_Frequencia_Clientes]
-        D -- DataDaProximaEntrega --> G[Dim_Calendario]
+    subgraph Data Model ["Star Schema Simplificado"]
+        D -- Cliente --> F["Dim_Frequencia_Clientes"]
+        D -- DataDaProximaEntrega --> G["Dim_Calendario"]
     end
 
-    subgraph Lógica de Negócio [DAX Measures]
-        D --> H[KPI: Entregas Atrasadas]
-        D --> I[KPI: Taxa de Realização]
+    subgraph Lógica de Negócio ["DAX Measures"]
+        D --> H["KPI: Entregas Atrasadas"]
+        D --> I["KPI: Taxa de Realização"]
     end
 
-    Data Model --> J[Report Views]
-    J --> K[Pág: Detalhamento Geral]
-    J --> L[Pág: Painel de Indicadores]
+    Data Model --> J["Report Views"]
+    J --> K["Pág: Detalhamento Geral"]
+    J --> L["Pág: Painel de Indicadores"]
 ```
 
 ## 📐 Modelo Semântico e Tabelas
