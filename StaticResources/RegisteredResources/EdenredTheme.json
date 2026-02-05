@@ -1,0 +1,393 @@
+{
+  "name": "Edenred Brand Theme",
+  "dataColors": [
+    "#E20613",
+    "#B8050F",
+    "#FF1A27",
+    "#8B0410",
+    "#FF4D57",
+    "#C70812",
+    "#FF6B74",
+    "#A00410",
+    "#FF8A91",
+    "#D10712"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#1A1A1A",
+  "tableAccent": "#E20613",
+  "textClasses": {
+    "callout": {
+      "fontFace": "'Ubuntu', 'Segoe UI', sans-serif",
+      "fontSize": 28,
+      "color": "#1A1A1A"
+    },
+    "title": {
+      "fontFace": "'Ubuntu', 'Segoe UI', sans-serif",
+      "fontSize": 20,
+      "fontWeight": "bold",
+      "color": "#1A1A1A"
+    },
+    "header": {
+      "fontFace": "'Ubuntu', 'Segoe UI', sans-serif",
+      "fontSize": 14,
+      "fontWeight": "bold",
+      "color": "#1A1A1A"
+    },
+    "label": {
+      "fontFace": "'Ubuntu', 'Segoe UI', sans-serif",
+      "fontSize": 12,
+      "color": "#333333"
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "color": {
+              "solid": {
+                "color": "#E5E5E5"
+              }
+            },
+            "width": 1
+          }
+        ],
+        "title": [
+          {
+            "fontFamily": "'Ubuntu', 'Segoe UI', sans-serif",
+            "fontSize": 14,
+            "fontColor": {
+              "solid": {
+                "color": "#1A1A1A"
+              }
+            },
+            "fontWeight": "bold"
+          }
+        ],
+        "labels": [
+          {
+            "fontFamily": "'Ubuntu', 'Segoe UI', sans-serif",
+            "fontSize": 11,
+            "fontColor": {
+              "solid": {
+                "color": "#333333"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "hundredPercentStackedBarChart": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "transparency": 0
+          }
+        ],
+        "title": [
+          {
+            "fontFamily": "'Ubuntu', 'Segoe UI', sans-serif",
+            "fontSize": 14,
+            "fontColor": {
+              "solid": {
+                "color": "#1A1A1A"
+              }
+            },
+            "fontWeight": "bold"
+          }
+        ],
+        "legend": [
+          {
+            "fontFamily": "'Ubuntu', 'Segoe UI', sans-serif",
+            "fontSize": 11
+          }
+        ],
+        "labels": [
+          {
+            "fontFamily": "'Ubuntu', 'Segoe UI', sans-serif",
+            "fontSize": 11,
+            "fontColor": {
+              "solid": {
+                "color": "#333333"
+              }
+            }
+          }
+        ],
+        "categoryAxis": [
+          {
+            "fontFamily": "'Ubuntu', 'Segoe UI', sans-serif",
+            "fontSize": 11,
+            "labelColor": {
+              "solid": {
+                "color": "#333333"
+              }
+            }
+          }
+        ],
+        "valueAxis": [
+          {
+            "fontFamily": "'Ubuntu', 'Segoe UI', sans-serif",
+            "fontSize": 11,
+            "labelColor": {
+              "solid": {
+                "color": "#333333"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "lineChart": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "transparency": 0
+          }
+        ],
+        "dataPoint": [
+          {
+            "defaultColor": {
+              "solid": {
+                "color": "#E20613"
+              }
+            }
+          }
+        ],
+        "title": [
+          {
+            "fontFamily": "'Ubuntu', 'Segoe UI', sans-serif",
+            "fontSize": 14,
+            "fontColor": {
+              "solid": {
+                "color": "#1A1A1A"
+              }
+            },
+            "fontWeight": "bold"
+          }
+        ],
+        "legend": [
+          {
+            "fontFamily": "'Ubuntu', 'Segoe UI', sans-serif",
+            "fontSize": 11
+          }
+        ],
+        "labels": [
+          {
+            "fontFamily": "'Ubuntu', 'Segoe UI', sans-serif",
+            "fontSize": 11
+          }
+        ],
+        "categoryAxis": [
+          {
+            "fontFamily": "'Ubuntu', 'Segoe UI', sans-serif",
+            "fontSize": 11,
+            "labelColor": {
+              "solid": {
+                "color": "#333333"
+              }
+            }
+          }
+        ],
+        "valueAxis": [
+          {
+            "fontFamily": "'Ubuntu', 'Segoe UI', sans-serif",
+            "fontSize": 11,
+            "labelColor": {
+              "solid": {
+                "color": "#333333"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "cardVisual": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#F8FAFC"
+              }
+            },
+            "transparency": 0
+          }
+        ],
+        "title": [
+          {
+            "fontFamily": "'Ubuntu', 'Segoe UI', sans-serif",
+            "fontSize": 12,
+            "fontColor": {
+              "solid": {
+                "color": "#666666"
+              }
+            }
+          }
+        ],
+        "labels": [
+          {
+            "fontFamily": "'Ubuntu', 'Segoe UI', sans-serif",
+            "fontSize": 28,
+            "fontColor": {
+              "solid": {
+                "color": "#1A1A1A"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "tableEx": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "transparency": 0
+          }
+        ],
+        "title": [
+          {
+            "fontFamily": "'Ubuntu', 'Segoe UI', sans-serif",
+            "fontSize": 14,
+            "fontColor": {
+              "solid": {
+                "color": "#1A1A1A"
+              }
+            },
+            "fontWeight": "bold"
+          }
+        ],
+        "values": [
+          {
+            "fontFamily": "'Ubuntu', 'Segoe UI', sans-serif",
+            "fontSize": 11,
+            "fontColor": {
+              "solid": {
+                "color": "#333333"
+              }
+            }
+          }
+        ],
+        "columnHeaders": [
+          {
+            "fontFamily": "'Ubuntu', 'Segoe UI', sans-serif",
+            "fontSize": 11,
+            "fontColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "backColor": {
+              "solid": {
+                "color": "#E20613"
+              }
+            },
+            "fontWeight": "bold"
+          }
+        ],
+        "grid": [
+          {
+            "gridHorizontal": true,
+            "gridHorizontalColor": {
+              "solid": {
+                "color": "#E5E5E5"
+              }
+            },
+            "gridHorizontalWeight": 1,
+            "rowPadding": 4
+          }
+        ]
+      }
+    },
+    "pivotTable": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "transparency": 0
+          }
+        ],
+        "title": [
+          {
+            "fontFamily": "'Ubuntu', 'Segoe UI', sans-serif",
+            "fontSize": 14,
+            "fontColor": {
+              "solid": {
+                "color": "#1A1A1A"
+              }
+            },
+            "fontWeight": "bold"
+          }
+        ],
+        "values": [
+          {
+            "fontFamily": "'Ubuntu', 'Segoe UI', sans-serif",
+            "fontSize": 11,
+            "fontColor": {
+              "solid": {
+                "color": "#333333"
+              }
+            }
+          }
+        ],
+        "columnHeaders": [
+          {
+            "fontFamily": "'Ubuntu', 'Segoe UI', sans-serif",
+            "fontSize": 11,
+            "fontColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "backColor": {
+              "solid": {
+                "color": "#E20613"
+              }
+            },
+            "fontWeight": "bold"
+          }
+        ],
+        "rowHeaders": [
+          {
+            "fontFamily": "'Ubuntu', 'Segoe UI', sans-serif",
+            "fontSize": 11,
+            "fontColor": {
+              "solid": {
+                "color": "#1A1A1A"
+              }
+            },
+            "fontWeight": "bold"
+          }
+        ]
+      }
+    }
+  }
+}

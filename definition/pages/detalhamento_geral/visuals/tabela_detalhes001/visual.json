@@ -1,0 +1,144 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.3.0/schema.json",
+  "name": "tabela_detalhes001",
+  "position": {
+    "x": 20,
+    "y": 20,
+    "z": 0,
+    "width": 1240,
+    "height": 680,
+    "tabOrder": 1000
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "ControleEntregaResultados"
+                    }
+                  },
+                  "Property": "Cliente"
+                }
+              },
+              "queryRef": "ControleEntregaResultados.Cliente",
+              "nativeQueryRef": "Cliente"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "ControleEntregaResultados"
+                    }
+                  },
+                  "Property": "Segmento"
+                }
+              },
+              "queryRef": "ControleEntregaResultados.Segmento",
+              "nativeQueryRef": "Segmento"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "ControleEntregaResultados"
+                    }
+                  },
+                  "Property": "Frequencia"
+                }
+              },
+              "queryRef": "ControleEntregaResultados.Frequencia",
+              "nativeQueryRef": "Frequência"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "ControleEntregaResultados"
+                    }
+                  },
+                  "Property": "Analista.email"
+                }
+              },
+              "queryRef": "ControleEntregaResultados.Analista.email",
+              "nativeQueryRef": "Analista"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "ControleEntregaResultados"
+                    }
+                  },
+                  "Property": "UltimaEntrega"
+                }
+              },
+              "queryRef": "ControleEntregaResultados.UltimaEntrega",
+              "nativeQueryRef": "Última Entrega"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "ControleEntregaResultados"
+                    }
+                  },
+                  "Property": "Formato"
+                }
+              },
+              "queryRef": "ControleEntregaResultados.Formato",
+              "nativeQueryRef": "Formato"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "ControleEntregaResultados"
+                    }
+                  },
+                  "Property": "DataDaProximaEntrega"
+                }
+              },
+              "queryRef": "ControleEntregaResultados.DataDaProximaEntrega",
+              "nativeQueryRef": "Próxima Entrega"
+            }
+          ]
+        }
+      }
+    },
+    "objects": {
+      "grid": [
+        {
+          "properties": {
+            "gridVertical": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
+            "gridHorizontal": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

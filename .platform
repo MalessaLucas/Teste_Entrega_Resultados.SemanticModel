@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "ENTREGA_DOS_ANALISTAS"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "2fda2c84-a636-41cb-bea2-b09f9c13ffa3"
+  }
+}
